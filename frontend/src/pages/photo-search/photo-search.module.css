@@ -1,0 +1,33 @@
+.results{
+    margin-top: 2rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.cardWrapper {
+    transition: transform 0.2s ease;
+  }
+  
+.cardWrapper:hover {
+  transform: scale(1.02);
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.noResults {
+  text-align: center;
+  color: #a1a1aa;
+  padding: 3rem;
+  background: rgba(24, 24, 27, 0.8);
+  border: 1px solid rgba(39, 39, 42, 0.5);
+  border-radius: 12px;
+}

@@ -1,0 +1,7 @@
+.mapWrapper {
+  height: 60vh; /* La mappa occupa il 60% dell'altezza della finestra */
+  min-height: 600px; /* Altezza minima */
+  border: 1px solid rgba(39, 39, 42, 0.5); /* Bordo opzionale */
+  border-radius: 12px;
+  overflow: hidden;
+}

@@ -1,0 +1,158 @@
+.monthsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colonne di uguale larghezza */
+  grid-template-rows: repeat(3, auto); /* 3 righe, altezza adattiva */
+  gap: 16px; /* Spaziatura tra celle */
+}
+
+.monthCard {
+background-color: rgba(39, 39, 42, 0.8); /* Sfondo coerente con le altre sezioni */
+border: 1px solid rgba(255, 255, 255, 0.1); /* Bordo leggero e semi-trasparente */
+border-radius: 12px; /* Angoli arrotondati */
+padding: 16px; /* Spazio interno */
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Ombreggiatura per effetto elevato */
+text-align: center; /* Centrare il contenuto */
+color: #fff; /* Colore del testo bianco per contrasto */
+transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animazione al passaggio del mouse */
+}
+
+.monthCard:hover {
+transform: translateY(-5px); /* Leggero sollevamento al passaggio del mouse */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombra più pronunciata */
+}
+
+.monthCard h3 {
+font-size: 18px;
+margin-bottom: 8px; /* Spazio tra titolo e contenuto */
+color: #ffffff; /* Colore per il titolo */
+}
+
+.monthCard p {
+margin: 4px 0; /* Spaziatura uniforme tra i paragrafi */
+}
+
+.selectGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Due colonne uguali */
+  gap: 13px; /* Spaziatura tra i grafici */
+  margin-bottom: 10px;
+  }
+
+.selectContainer {
+margin-top: 20px;
+margin-bottom: 32px; /* Spazio aggiuntivo sotto il selettore */
+}
+
+.selectLabel {
+font-weight: bold;
+margin-right: 8px;
+}
+
+.select {
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2); /* Bordo semi-trasparente */
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: rgba(39, 39, 42, 0.9); /* Sfondo scuro coerente */
+  color: #ffffff; /* Testo bianco */
+  outline: none;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.chartsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Due colonne uguali */
+  gap: 16px; /* Spaziatura tra i grafici */
+  margin-bottom: 32px;
+}
+
+.chartContainer {
+  background-color: rgba(39, 39, 42, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.gaugeContainer {
+  width: 500px !important;
+  height: 500px !important;
+  justify-self: center;
+}
+
+
+.explanation {
+  margin-bottom: 2rem;
+  color: #a1a1aa;
+  line-height: 1.3;
+}
+
+.metrics {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style-type: none;
+}
+
+.metrics li {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.metrics strong {
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+
+.results{
+  margin-top: 2rem;
+}
+
+.noResults {
+  text-align: center;
+  color: #a1a1aa;
+  padding: 3rem;
+  background: rgba(24, 24, 27, 0.8);
+  border: 1px solid rgba(39, 39, 42, 0.5);
+  border-radius: 12px;
+}
+
+.cameraCardGrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.statsGridDashboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+.chartsGridDashboard {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  gap: 1rem;
+}
