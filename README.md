@@ -1,4 +1,4 @@
-# Titolo del Progetto
+# Progetto Big Data
 
 Un'applicazione web con un **backend** sviluppato in **Python (PySpark)** e un **frontend** sviluppato con **React**.
 
